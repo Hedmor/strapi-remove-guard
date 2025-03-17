@@ -21,7 +21,7 @@ npm install strapi-remove-guard
 After installing the package, you can use it to check for changes in data models. Run the following command:
 
 ```bash
-npm cli-srg --branch <name-branch>
+npm sr-guard --branch <name-branch>
 ```
 where:
     --branch (or -b) — the name of the branch to compare the current changes with. If not specified, the default branch develop will be used.
@@ -49,7 +49,7 @@ npm install strapi-remove-guard
 После установки пакета вы можете использовать его для проверки изменений в моделях данных. Для этого выполните команду:
 
 ```bash
-npm cli-srg --branch <имя-ветки>
+npm sr-guard --branch <имя-ветки>
 ```
 
 где:
