@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Hebmor/strapi-remove-guard.git"
+    "url": "git+ssh://git@github.com/Hedmor/strapi-remove-guard.git"
   },
   "scripts": {
     "build": "tsup-node",
@@ -41,7 +41,7 @@
     "cli",
     "bootstrap"
   ],
-  "author": "Hebmor",
+  "author": "Hedmor",
   "license": "UNLICENSED",
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
