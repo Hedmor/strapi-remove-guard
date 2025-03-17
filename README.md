@@ -23,8 +23,9 @@ After installing the package, you can use it to check for changes in data models
 ```bash
 npm sr-guard --branch <name-branch>
 ```
+
 where:
-    --branch (or -b) — the name of the branch to compare the current changes with. If not specified, the default branch develop will be used.
+--branch (or -b) — the name of the branch to compare the current changes with. If not specified, the default branch develop will be used.
 
 # RU
 
@@ -53,4 +54,4 @@ npm sr-guard --branch <имя-ветки>
 ```
 
 где:
-    --branch (или -b) — имя ветки, с которой необходимо сравнить текущие изменения. Если не указано, по умолчанию используется ветка develop.
+--branch (или -b) — имя ветки, с которой необходимо сравнить текущие изменения. Если не указано, по умолчанию используется ветка develop.

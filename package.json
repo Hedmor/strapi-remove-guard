@@ -1,7 +1,7 @@
 {
   "name": "strapi-remove-guard",
   "version": "1.0.0",
-  "description": "`strapi-remove-guard` простая утилита для обнаружения изменения моделей в Strapi.",
+  "description": "A simple utility for detecting removed fields in Strapi models.",
   "bin": {
     "sr-guard": "./bin/run"
   },
