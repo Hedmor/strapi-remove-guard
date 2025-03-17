@@ -8,7 +8,7 @@ interface CheckArgv {
 }
 
 export const command = 'check';
-export const describe = 'Сравнивает текущие изменения с целевой веткой(по умолчанию - develop).';
+export const describe = 'Compares the current changes with the target branch (default is develop).';
 export const aliases = ['c'];
 
 export function builder(yargs: Argv<CheckArgv>): Argv {
@@ -21,7 +21,7 @@ export function builder(yargs: Argv<CheckArgv>): Argv {
 
 const printComponentsLogs = (
   components: Map<string, Map<string, string[]>>,
-  header: string = 'Удаленные поля из компонентов:',
+  header: string = 'Removed fields from components:',
 ) => {
   if (components.size > 0) {
     logger.info(red(header));
@@ -32,7 +32,7 @@ const printComponentsLogs = (
   }
 };
 
-const printFieldsLogs = (fields: Map<string, string[]>, header: string = 'Удаленные поля из моделей:') => {
+const printFieldsLogs = (fields: Map<string, string[]>, header: string = 'Removed fields from models:') => {
   if (fields.size > 0) {
     logger.info(red(header));
     for (const [file, removed] of fields) {
@@ -45,7 +45,7 @@ export async function handler(argv: ArgumentsCamelCase<CheckArgv>) {
   const { components, fields } = await getRemovedFromModels();
 
   if (argv.branch) {
-    logger.info(bold(`Проверка ветки: ${argv.branch}`));
+    logger.info(bold(`Branch check: ${argv.branch}`));
 
     process.env.TARGET_BRANCH = argv.branch;
   }

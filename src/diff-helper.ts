@@ -24,7 +24,7 @@ export const getRelevantJsonChanges = async () => {
   const changedFiles = filterJsonDiffFiles(diffSummary.files);
 
   if (changedFiles.length === 0) {
-    logger.info(green(`Нет изменений в JSON-файлах в папках src/api или src/components`));
+    logger.info(green(`No changes in JSON files in the src/api or src/components folders.`));
   }
 
   return changedFiles;
