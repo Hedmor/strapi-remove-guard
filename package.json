@@ -1,6 +1,6 @@
 {
   "name": "strapi-remove-guard",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "`strapi-remove-guard` простая утилита для обнаружения изменения моделей в Strapi.",
   "bin": {
     "cli-srg": "./bin/run"
