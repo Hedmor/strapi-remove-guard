@@ -44,7 +44,7 @@ const printFieldsLogs = (fields: Map<string, string[]>, header: string = 'Remove
 export async function handler(argv: ArgumentsCamelCase<CheckArgv>) {
   const { components, fields } = await getRemovedFromModels();
 
-  if (argv.branch) {
+  if (typeof argv.branch === 'string') {
     logger.info(bold(`Branch check: ${argv.branch}`));
 
     process.env.TARGET_BRANCH = argv.branch;

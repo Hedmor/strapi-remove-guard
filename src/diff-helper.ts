@@ -278,13 +278,13 @@ export const getRemovedFromModels = async () => {
     const removedFields = getRemovedFields(model);
     const removedComponents = getRemovedComponents(model);
 
-    if(removedFields.length > 0) {
+    if (removedFields.length > 0) {
       fields.set(modelFile, removedFields);
     }
 
-    if(removedComponents.size > 0) {
+    if (removedComponents.size > 0) {
       components.set(modelFile, removedComponents);
-    }    
+    }
   }
 
   return { fields, components };
