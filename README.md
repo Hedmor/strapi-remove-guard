@@ -2,7 +2,7 @@
 
 ## Problem Description
 
-When developing multiple features in parallel in a single Strapi CMS project, situations often arise where changes in data models affect the stability and compatibility of the system. Working in a shared environment can lead to conflicts and application malfunctions, especially when breaking changes occur.
+When developing multiple features in parallel in a single Strapi CMS (v4) project, situations often arise where changes in data models affect the stability and compatibility of the system. Working in a shared environment can lead to conflicts and application malfunctions, especially when breaking changes occur.
 
 ## Solution
 
@@ -40,7 +40,7 @@ where:
 
 ## Описание проблемы
 
-При параллельной разработке нескольких функциональных возможностей в одном проекте Strapi CMS часто возникают ситуации, когда изменения в моделях данных влияют на стабильность и совместимость системы. Работа в едином окружении может привести к конфликтам и нарушению работы приложения, особенно при наличии breaking changes.
+При параллельной разработке нескольких функциональных возможностей в одном проекте Strapi CMS (v4) часто возникают ситуации, когда изменения в моделях данных влияют на стабильность и совместимость системы. Работа в едином окружении может привести к конфликтам и нарушению работы приложения, особенно при наличии breaking changes.
 
 ## Решение
 
